@@ -8,4 +8,4 @@ steps:
   commands:
   - echo hello
   - echo worldt
-    ekko ERROER
+  - ekko ERROER
