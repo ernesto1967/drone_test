@@ -3,9 +3,14 @@ type: docker
 name: default
 
 steps:
-- name: greeting
+- name: greeting_en
   image: alpine
   commands:
   - echo hello
   - echo worldt
-  - ekko ERROER
+  - echo NOE ERROER
+
+- name: gruss_de
+  image: alpine
+  commands:
+  - echo Moin, Moin!
